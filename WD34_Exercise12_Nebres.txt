@@ -1,0 +1,40 @@
+Valorant is a free-to-play first-person tactical hero shooter developed and published by Riot Games, for Microsoft Windows.
+
+Initiatior
+	- Initiators challenge angles by setting up their team to enter contested ground and push defenders away.
+	- KAY/O, SOVA, SKYE, FADE, BREACH 
+
+Sentinel
+	- Sentinel are defensive experts who can lock down areas and watch flanks, both on attaker and defender rounds.
+	- CHAMBER, CYPHER, KILLJOY, SAGE
+
+Duelist
+	- Duelists are self-sufficient fraggers who their team expects, through abilities and skills, to get high-frags and seek out engagements first.
+	- JETT, NEON, PHOENIX, RAZE, REYNA, YORU
+
+Controller
+	- Controllers are experts in slicing up dangerous territory to set their team up for success.
+	- ASTRA, BRIM, VIPER, OMEN, HARBOR 
+
+
+breach
+brim
+cypher
+harbor
+jett
+killjoy
+omen
+phoenix
+raze
+reyna
+sage
+skye
+sova
+viper
+
+astra
+chamber
+fade
+neon
+kayo
+yoru

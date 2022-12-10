@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-mq400.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css
+    "
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">Logo</div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Agents</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- <div class="input-group"> 
+      <input type="text" class="form-control" placeholder="Search here.." />
+      <button class="btn btn-danger">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </div>-->
+
+    <div class="search">
+      <form class="search-form">
+        <input type="text" placeholder="Search for books, authors, categories and more..">
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    
+    <div class="banner">
+      <div class="banner-img">
+        <img src="img-exc12/banner.jpg" class="bg-img" />
+      </div>
+      <div class="banner-text">
+        <h1>VALORANT Lore</h1>
+        <p>Valorant is a team-based first-person tactical hero shooter set in the near future.Players play as one of a set of Agents, characters based on several countries and cultures around the world. In the main game mode, players are assigned to either the attacking or defending team with each team having five players on it. Agents have unique abilities, each requiring charges, as well as a unique ultimate ability that requires charging through kills, deaths, orbs, or objectives. Every player starts each round with a "classic" pistol and one or more "signature ability" charges. Other weapons and ability charges can be purchased using an in-game economic system that awards money based on the outcome of the previous round, any kills the player is responsible for, and any objectives completed.</p>
+      </div>
+    </div>
+    <div class="container-valagents">
+      <div class="carousel-title">
+        <h1>VALORANT AGENTS</h1>
+      </div>
+      <br />
+    </div>
+    <div class="container-carousel">
+      <div
+        class="carousel slide"
+        data-bs-ride="carousel"
+        id="controllMeCarousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            data-bs-target="#controllMeCarousel"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            data-bs-target="#controllMeCarousel"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            data-bs-target="#controllMeCarousel"
+            data-bs-slide-to="2"
+          ></button>
+          <button
+            data-bs-target="#controllMeCarousel"
+            data-bs-slide-to="3"
+          ></button>
+          <button
+            data-bs-target="#controllMeCarousel"
+            data-bs-slide-to="4"
+          ></button>
+          <button
+            data-bs-target="#controllMeCarousel"
+            data-bs-slide-to="5"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="img-exc12/Skye.jpg"
+              class="agent d-block w-30 h-30"
+              id="agent-img"
+            />
+            <div class="agent-info carousel-caption  d-md-block">
+              <h6 class="agent-desc">Sample Caption Title</h6>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
+                eligendi vero dolore nulla autem dolorem quam commodi error
+                alias, neque in tempore dicta dolorum magnam omnis quae nam
+                doloribus sed!
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img-exc12/Viper.jpg"
+              class="agent d-block w-30 h-30"
+              id="agent-img"
+            />
+            <div class="agent-info carousel-caption  d-md-block">
+              <h6 class="agent-desc">Sample Caption Title</h6>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
+                eligendi vero dolore nulla autem dolorem quam commodi error
+                alias, neque in tempore dicta dolorum magnam omnis quae nam
+                doloribus sed!
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img-exc12/Chamber-cropped zoom.png"
+              class="agent d-block w-30 h-30"
+              id="agent-img"
+            />
+            <div class="agent-info carousel-caption  d-md-block">
+              <h6 class="agent-desc">Sample Caption Title</h6>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
+                eligendi vero dolore nulla autem dolorem quam commodi error
+                alias, neque in tempore dicta dolorum magnam omnis quae nam
+                doloribus sed!
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img-exc12/Neon.png"
+              class="agent d-block w-30 h-30"
+              id="agent-img"
+            />
+            <div class="agent-info carousel-caption  d-md-block">
+              <h6 class="agent-desc">Sample Caption Title</h6>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
+                eligendi vero dolore nulla autem dolorem quam commodi error
+                alias, neque in tempore dicta dolorum magnam omnis quae nam
+                doloribus sed!
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img-exc12/Jett.jpg"
+              class="agent d-block w-30 h-30"
+              id="agent-img"
+            />
+            <div class="agent-info carousel-caption  d-md-block">
+              <h6 class="agent-desc">Sample Caption Title</h6>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
+                eligendi vero dolore nulla autem dolorem quam commodi error
+                alias, neque in tempore dicta dolorum magnam omnis quae nam
+                doloribus sed!
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img-exc12/Omen.jpg"
+              class="agent d-block w-30 h-30"
+              id="agent-img"
+            />
+            <div class="agent-info carousel-caption  d-md-block">
+              <h6 class="agent-desc">Sample Caption Title</h6>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
+                eligendi vero dolore nulla autem dolorem quam commodi error
+                alias, neque in tempore dicta dolorum magnam omnis quae nam
+                doloribus sed!
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          data-bs-target="#controllMeCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          data-bs-target="#controllMeCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+    <div class="container-cards">
+      <h1 id="card-title">AGENT ROLES</h1>
+      <div class="row mx-5">
+        <div class="col-6 d-flex justify-content-center">
+          <div class="card cardDuelists">
+            <img
+              src="img-exc12/duelist-noraze-collage.png"
+              class="card-img-top img-fluid img-responsive"
+            />
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="card-title">DUELISTS</h3>
+                <h4 class="card-subtitle text-secondary">
+                  JETT, NEON, PHOENIX, RAZE, REYNA, YORU, RAZE
+                </h4>
+                <p class="card-text">
+                  Duelists are self-sufficient fraggers who their team expects,
+                  through abilities and skills, to get high-frags and seek out
+                  engagements first.
+                </p>
+                <a href="#" class="card-btn btn btn-primary">Sample</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 d-inline-block">
+          <div class="accordion" id="jettAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="accordionJett">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#contentJett">JETT</button>
+              </h2>
+              <div class="accordion-collapse collapse show" id="contentJett" data-bs-toggle="#accordionJett" data-bs-parent="#jettAccordion">
+                <div class="accordion-body">
+                  <p>Representing her home country of South Korea, Jett's agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies before they even know what hit them.</p>
+                  <button class="learnmore btn btn-primary"><a href="VALORANT Agents-Jett.html">Learn more about this agent</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="neonAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="accordionNeon">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#contentNeon">NEON</button>
+              </h2>
+              <div class="accordion-collapse collapse show" id="contentNeon" data-bs-toggle="#accordionNeon" data-bs-parent="#neonAccordion">
+                <div class="accordion-body">
+                  <p>Filipino Agent Neon surges forward at shocking speeds, discharging bursts of bioelectric radiance as fast as her body generates it. She races ahead to catch enemies off guard, then strikes them down quicker than lightning.</p>
+                  <button class="learnmore btn btn-primary"><a href="#"><Link>Learn more about this agent</Link></a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="phoenixAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="accordionPhoenix">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#contentPhoenix">PHOENIX</button>
+              </h2>
+              <div class="accordion-collapse collapse show" id="contentPhoenix" data-bs-toggle="#accordionPhoenix" data-bs-parent="#phoenixAccordion">
+                <div class="accordion-body">
+                  <p>Hailing from the U.K., Phoenix's star power shines through in his fighting style, igniting the battlefield with flash and flare. Whether he's got backup or not, he'll rush into a fight on his own terms.</p>
+                  <button class="learnmore btn btn-primary"><a href="#"><Link>Learn more about this agent</Link></a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="razeAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="accordionRaze">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#contentRaze">RAZE</button>
+              </h2>
+              <div class="accordion-collapse collapse show" id="contentRaze" data-bs-toggle="#accordionRaze" data-bs-parent="#razeAccordion">
+                <div class="accordion-body">
+                  <p>Raze explodes out of Brazil with her big personality and big guns. With her blunt-force-trauma playstyle, she excels at flushing entrenched enemies and clearing tight spaces with a generous dose of “boom.”</p>
+                  <button class="learnmore btn btn-primary"><a href="#"><Link>Learn more about this agent</Link></a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="reynaAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="accordionReyna">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#contentReyna">REYNA</button>
+              </h2>
+              <div class="accordion-collapse collapse show" id="contentReyna" data-bs-toggle="#accordionReyna" data-bs-parent="#reynaAccordion">
+                <div class="accordion-body">
+                  <p>Forged in the heart of Mexico, Reyna dominates single combat, popping off with each kill she scores. Her capability is only limited by her raw skill, making her highly dependent on performance.</p>
+                  <button class="learnmore btn btn-primary"><a href="#"><Link>Learn more about this agent</Link></a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="yoruAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="accordionYoru">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#contentYoru">YORU</button>
+              </h2>
+              <div class="accordion-collapse collapse show" id="contentYoru" data-bs-toggle="#accordionYoru" data-bs-parent="#yoruAccordion">
+                <div class="accordion-body">
+                  <p>Japanese native, Yoru, rips holes straight through reality to infiltrate enemy lines unseen. Using deception and aggression in equal measure, he gets the drop on each target before they know where to look.</p>
+                  <button class="learnmore btn btn-primary"><a href="#"><Link>Learn more about this agent</Link></a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row mx-5">
+        <div class="col-6 d-inline-block controllersAccordion">
+          <div class="accordion " id="astraAccordion">
+            <div class="accordion-item gx-3">
+              <h2 class="accordion-header" id="accordionAstra">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#contentAstra">ASTRA</button>
+              </h2>
+              <div class="accordion-collapse collapse show" id="contentAstra" data-bs-toggle="#accordionAstra" data-bs-parent="#astraAccordion">
+                <div class="accordion-body">
+                  <p>Ghanaian Agent Astra harnesses the energies of the cosmos to reshape battlefields to her whim. With full command of her astral form and a talent for deep strategic foresight, she's always eons ahead of her enemy's next move.</p>
+                  <button class="learnmore btn btn-primary"><a href="VALORANT Agents-Astra.html"><Link>Learn more about this agent</Link></a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="brimAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="accordionBrim">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#contentBrim">BRIMSTONE</button>
+              </h2>
+              <div class="accordion-collapse collapse show" id="contentBrim" data-bs-toggle="#accordionBrim" data-bs-parent="#brimAccordion">
+                <div class="accordion-body">
+                  <p>Joining from the USA, Brimstone's orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and from a distance makes him an unmatched boots-on-the-ground commander.</p>
+                  <button class="learnmore btn btn-primary"><a href="VALORANT Agents-Brim.html"><Link>Learn more about this agent</Link></a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="viperAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="accordionViper">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#contentViper">VIPER</button>
+              </h2>
+              <div class="accordion-collapse collapse show" id="contentViper" data-bs-toggle="#accordionViper" data-bs-parent="#viperAccordion">
+                <div class="accordion-body">
+                  <p>The American chemist, Viper deploys an array of poisonous chemical devices to control the battlefield and cripple the enemy's vision. If the toxins don't kill her prey, her mind games surely will.</p>
+                  <button class="learnmore btn btn-primary"><a href="#"><Link>Learn more about this agent</Link></a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="omenAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="accordionOmen">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#contentOmen">OMEN</button>
+              </h2>
+              <div class="accordion-collapse collapse show" id="contentOmen" data-bs-toggle="#accordionOmen" data-bs-parent="#omenAccordion">
+                <div class="accordion-body">
+                  <p>A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to learn where he might strike next.</p>
+                  <button class="learnmore btn btn-primary"><a href="#"><Link>Learn more about this agent</Link></a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="harborAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="accordionHarbor">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#contentHarbor">HARBOR</button>
+              </h2>
+              <div class="accordion-collapse collapse show" id="contentHarbor" data-bs-toggle="#accordionHarbor" data-bs-parent="#harborAccordion">
+                <div class="accordion-body">
+                  <p>Hailing from India’s coast, Harbor storms the field wielding ancient technology with dominion over water. He unleashes frothing rapids and crushing waves to shield his allies and pummel those that oppose him.</p>
+                  <button class="learnmore btn btn-primary"><a href="#"><Link>Learn more about this agent</Link></a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+       </div>
+       <div class="col-6 d-flex justify-content-center">
+        <div class="card cardControllers gx-3">
+          <img
+            src="img-exc12/controllers-collage.png"
+            class="card-img-top img-fluid img-responsive"
+          />
+          <div class="card-body">
+            <div class="card-title">
+              <h3 class="card-title">CONTROLLERS</h3>
+              <h4 class="card-subtitle text-secondary">
+                ASTRA, BRIMSTONE, VIPER, OMEN, HARBOR
+              </h4>
+              <p class="card-text">
+                Controllers are experts in slicing up dangerous territory to set their team up for success.
+              </p>
+              <a href="#" class="card-btn btn btn-primary">Sample <Link></Link></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+
+      <!--     INITIATORS       -->
+
+      <div class="row my-3 mx-1">
+        <div class="col-6 d-flex justify-content-center">
+          <div class="card cardInitiators gx-4">
+            <img
+              src="img-exc12/initiators-collage.png"
+              class="card-img-top img-fluid img-responsive"
+            />
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="card-title">INITIATORS</h3>
+                <h4 class="card-subtitle text-secondary">
+                  KAYO, SOVA, SKYE, FADE, BREACH
+                </h4>
+                <p class="card-text">
+                  Initiators challenge angles by setting up their team to enter contested ground and push defenders away.
+                </p>
+                <a href="#" class="card-btn btn btn-primary">Sample <Link></Link></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 d-inline-block justify-content-center initiatorsAccordion">
+          <div class="accordion" id="sovaAccordion">
+            <div class="accordion-item gx-4">
+              <h2 class="accordion-header" id="accordionSova">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#contentSova">SOVA</button>
+              </h2>
+              <div class="accordion-collapse collapse show" id="contentSova" data-bs-toggle="#accordionSova" data-bs-parent="#sovaAccordion">
+                <div class="accordion-body">
+                  <p>Born from the eternal winter of Russia's tundra, Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide.</p>
+                  <button class="learnmore btn btn-primary"><a href="VALORANT Agents-Sova.html"><Link>Learn more about this agent</Link></a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="skyeAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="accordionSkye">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#contentSkye">SKYE</button>
+              </h2>
+              <div class="accordion-collapse collapse show" id="contentSkye" data-bs-toggle="#accordionSkye" data-bs-parent="#skyeAccordion">
+                <div class="accordion-body">
+                  <p>Hailing from Australia, Skye and her band of beasts trail-blaze the way through hostile territory. With her creations hampering the enemy, and her power to heal others, the team is strongest and safest by Skye’s side. </p>
+                  <button class="learnmore btn btn-primary"><a href="VALORANT Agents-Skye.html"><Link>Learn more about this agent</Link></a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="fadeAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="accordionFade">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#contentFade">FADE</button>
+              </h2>
+              <div class="accordion-collapse collapse show" id="contentFade" data-bs-toggle="#accordionFade" data-bs-parent="#fadeAccordion">
+                <div class="accordion-body">
+                  <p>Turkish bounty hunter, Fade, unleashes the power of raw nightmares to seize enemy secrets. Attuned with terror itself, she hunts targets and reveals their deepest fears—before crushing them in the dark.</p>
+                  <button class="learnmore btn btn-primary"><a href="#"><Link>Learn more about this agent</Link></a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="kayoAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="accordionKAYO">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#contentKAYO">KAY/0</button>
+              </h2>
+              <div class="accordion-collapse collapse show" id="contentKAYO" data-bs-toggle="#accordionKAYO" data-bs-parent="#kayoAccordion">
+                <div class="accordion-body">
+                  <p>KAY/O is a machine of war built for a single purpose: neutralizing radiants. His power to suppress enemy abilities cripples his opponents' capacity to fight back, securing him and his allies the ultimate edge.</p>
+                  <button class="learnmore btn btn-primary"><a href="#"><Link>Learn more about this agent</Link></a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="breachAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="accordionBreach">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#contentBreach">BREACH</button>
+              </h2>
+              <div class="accordion-collapse collapse show" id="contentBreach" data-bs-toggle="#accordionBreach" data-bs-parent="#breachAccordion">
+                <div class="accordion-body">
+                  <p>Breach, the bionic Swede, fires powerful, targeted kinetic blasts to aggressively clear a path through enemy ground. The damage and disruption he inflicts ensures no fight is ever fair.</p>
+                  <button class="learnmore btn btn-primary"><a href="#"><Link>Learn more about this agent</Link></a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <br>
+      <div class="row my-1">
+        <div class="col-6 d-inline-block sentinelsAccordion">
+          <div class="accordion " id="chamberAccordion">
+            <div class="accordion-item gx-4">
+              <h2 class="accordion-header" id="accordionChamber">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#contentChamber">CHAMBER</button>
+              </h2>
+              <div class="accordion-collapse collapse show" id="contentChamber" data-bs-toggle="#accordionChamber" data-bs-parent="#chamberAccordion">
+                <div class="accordion-body">
+                  <p>Well dressed and well armed, French weapons designer Chamber expels aggressors with deadly precision. He leverages his custom arsenal to hold the line and pick off enemies from afar, with a contingency built for every plan.</p>
+                  <button class="learnmore btn btn-primary"><a href="VALORANT Agents-Chamber.html"><Link>Learn more about this agent</Link></a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="cypherAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="accordionCypher">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#contentCypher">CYPHER</button>
+              </h2>
+              <div class="accordion-collapse collapse show" id="contentCypher" data-bs-toggle="#accordionCypher" data-bs-parent="#cypherAccordion">
+                <div class="accordion-body">
+                  <p>The Moroccan information broker, Cypher is a one-man surveillance network who keeps tabs on the enemy's every move. No secret is safe. No maneuver goes unseen. Cypher is always watching.</p>
+                  <button class="learnmore btn btn-primary"><a href="#"><Link>Learn more about this agent</Link></a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="killjoyAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="accordionKilljoy">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#contentKilljoy">KILLJOY</button>
+              </h2>
+              <div class="accordion-collapse collapse show" id="contentKilljoy" data-bs-toggle="#accordionKilljoy" data-bs-parent="#killjoyAccordion">
+                <div class="accordion-body">
+                  <p>The genius of Germany. Killjoy secures the battlefield with ease using her arsenal of inventions. If the damage from her gear doesn't stop her enemies, her robots' debuff will help make short work of them.</p>
+                  <button class="learnmore btn btn-primary"><a href="#"><Link>Learn more about this agent</Link></a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="sageAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="accordionSage">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#contentSage">SAGE</button>
+              </h2>
+              <div class="accordion-collapse collapse show" id="contentSage" data-bs-toggle="#accordionSage" data-bs-parent="#sageAccordion">
+                <div class="accordion-body">
+                  <p>The stronghold of China, Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off aggressive pushes, she provides a calm center to a hellish fight.</p>
+                  <button class="learnmore btn btn-primary"><a href="VALORANT Agents-Sage.html"><Link>Learn more about this agent</Link></a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+       </div>
+       <div class="col-6 d-flex justify-content-center">
+        <div class="card cardSentinels gx-4">
+          <img
+            src="img-exc12/sentinels-collage.png"
+            class="card-img-top"
+          />
+          <div class="card-body">
+            <div class="card-title">
+              <h3 class="card-title">SENTINELS</h3>
+              <h4 class="card-subtitle text-secondary">
+                CHAMBER, CYPHER, KILLJOY, SAGE
+              </h4>
+              <p class="card-text">
+                Sentinel are defensive experts who can lock down areas and watch flanks, both on attaker and defender rounds.
+              </p>
+              <a href="#" class="card-btn btn btn-primary">Sample</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--     AGENT CARDS    -->
+
+    <div class="container">
+      <div class="row gx-3 gy-3 agents">
+        <h1 id="agents-title">AGENTS</h1>
+        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+          <div class="card-agents card h-100">
+            <img src="img-exc12/Brim.jpg" class="img-fluid card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="card-title">BRIMSTONE</h3>
+                <h4 class="card-subtitle text-secondary">CONTROLLER</h4>
+              </div>
+              <p class="card-text">
+                Joining from the USA, Brimstone's orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and from a distance makes him an unmatched boots-on-the-ground commander.
+              </p>
+              <button class="learnmore btn btn-primary"><a href="VALORANT Agents-Brim.html">Learn more about this agent</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+          <div class="card-agents card h-100">
+            <img src="img-exc12/Phoenix.jpg" class="img-fluid card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="card-title">PHOENIX</h3>
+                <h4 class="card-subtitle text-secondary">DUELIST</h4>
+              </div>
+              <p class="card-text">
+                Hailing from the U.K., Phoenix's star power shines through in his fighting style, igniting the battlefield with flash and flare. Whether he's got backup or not, he'll rush into a fight on his own terms.
+              </p>
+              <button class="learnmore btn btn-primary"><a href="VALORANT Agents-Phoenix.html">Learn more about this agent</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+          <div class="card-agents card h-100">
+            <img src="img-exc12/Sage.jpg" class="img-fluid card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="card-title">SAGE</h3>
+                <h4 class="card-subtitle text-secondary">SENTINEL</h4>
+              </div>
+              <p class="card-text">
+                The stronghold of China, Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off aggressive pushes, she provides a calm center to a hellish fight.
+              </p>
+              <button class="learnmore btn btn-primary"><a href="VALORANT Agents-Sage.html">Learn more about this agent</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+          <div class="card-agents card h-100">
+            <img src="img-exc12/Sova.jpg" class="img-fluid card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="card-title">SOVA</h3>
+                <h4 class="card-subtitle text-secondary">INITIATOR</h4>
+              </div>
+              <p class="card-text">
+                Born from the eternal winter of Russia's tundra, Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide.
+              </p>
+              <button class="learnmore btn btn-primary"><a href="VALORANT Agents-Sova.html">Learn more about this agent</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+          <div class="card-agents card h-100">
+            <img src="img-exc12/Viper-cropped zoom.jpg" class="img-fluid card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="card-title">VIPER</h3>
+                <h4 class="card-subtitle text-secondary">CONTROLLER</h4>
+              </div>
+              <p class="card-text">
+                The American chemist, Viper deploys an array of poisonous chemical devices to control the battlefield and cripple the enemy's vision. If the toxins don't kill her prey, her mind games surely will.
+              </p>
+              <button class="learnmore btn btn-primary"><a href="#">Learn more about this agent</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+          <div class="card-agents card h-100">
+            <img src="img-exc12/Cypher.jpg" class="img-fluid card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="card-title">CYPHER</h3>
+                <h4 class="card-subtitle text-secondary">SENTINEL</h4>
+              </div>
+              <p class="card-text">
+                The Moroccan information broker, Cypher is a one-man surveillance network who keeps tabs on the enemy's every move. No secret is safe. No maneuver goes unseen. Cypher is always watching.
+              </p>
+              <button class="learnmore btn btn-primary"><a href="#">Learn more about this agent</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+          <div class="card-agents card h-100">
+            <img src="img-exc12/Reyna.jpg" class=" img-fluid">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="card-title">REYNA</h3>
+                <h4 class="card-subtitle text-secondary">DUELIST</h4>
+              </div>
+              <p class="card-text">
+                Forged in the heart of Mexico, Reyna dominates single combat, popping off with each kill she scores. Her capability is only limited by her raw skill, making her highly dependent on performance.
+              </p>
+              <button class="learnmore btn btn-primary"><a href="#">Learn more about this agent</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+          <div class="card-agents card h-100">
+            <img src="img-exc12/KillJoy-cropped zoom.jpg" class="img-fluid card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="card-title">KILLJOY</h3>
+                <h4 class="card-subtitle text-secondary">SENTINEL</h4>
+              </div>
+              <p class="card-text">
+                The genius of Germany. Killjoy secures the battlefield with ease using her arsenal of inventions. If the damage from her gear doesn't stop her enemies, her robots' debuff will help make short work of them.
+              </p>
+              <button class="learnmore btn btn-primary"><a href="#">Learn more about this agent</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+          <div class="card-agents card h-100">
+            <img src="img-exc12/Breach.jpg" class="img-fluid card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="card-title">BREACH</h3>
+                <h4 class="card-subtitle text-secondary">INITIATOR</h4>
+              </div>
+              <p class="card-text">
+                Breach, the bionic Swede, fires powerful, targeted kinetic blasts to aggressively clear a path through enemy ground. The damage and disruption he inflicts ensures no fight is ever fair.
+              </p>
+              <button class="learnmore btn btn-primary"><a href="#">Learn more about this agent</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+          <div class="card-agents card h-100">
+            <img src="img-exc12/Omen.jpg" class="img-fluid card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="card-title">OMEN</h3>
+                <h4 class="card-subtitle text-secondary">CONTROLLER</h4>
+              </div>
+              <p class="card-text">
+                A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to learn where he might strike next.
+              </p>
+              <button class="learnmore btn btn-primary"><a href="#">Learn more about this agent</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+          <div class="card-agents card h-100">
+            <img src="img-exc12/Jett.jpg" class="img-fluid card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="card-title">JETT</h3>
+                <h4 class="card-subtitle text-secondary">DUELIST</h4>
+              </div>
+              <p class="card-text">
+                Representing her home country of South Korea, Jett's agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies before they even know what hit them.
+              </p>
+              <button class="learnmore btn btn-primary"><a href="#">Learn more about this agent</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+          <div class="card-agents card h-100">
+            <img src="img-exc12/Raze.jpg" class="img-fluid card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="card-title">RAZE</h3>
+                <h4 class="card-subtitle text-secondary">DUELIST</h4>
+              </div>
+              <p class="card-text">
+                Raze explodes out of Brazil with her big personality and big guns. With her blunt-force-trauma playstyle, she excels at flushing entrenched enemies and clearing tight spaces with a generous dose of “boom.”
+              </p>
+              <button class="learnmore btn btn-primary"><a href="#">Learn more about this agent</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+          <div class="card-agents card h-100">
+            <img src="img-exc12/Skye.jpg" class="img-fluid card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="card-title">SKYE</h3>
+                <h4 class="card-subtitle text-secondary">INITIATOR</h4>
+              </div>
+              <p class="card-text">
+                Hailing from Australia, Skye and her band of beasts trail-blaze the way through hostile territory. With her creations hampering the enemy, and her power to heal others, the team is strongest and safest by Skye’s side.
+              </p>
+              <button class="learnmore btn btn-primary"><a href="#">Learn more about this agent</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+          <div class="card-agents card h-100">
+            <img src="img-exc12/Yoru.jpg" class="card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="card-title">YORU</h3>
+                <h4 class="card-subtitle text-secondary">DUELIST</h4>
+              </div>
+              <p class="card-text">
+                Japanese native, Yoru, rips holes straight through reality to infiltrate enemy lines unseen. Using deception and aggression in equal measure, he gets the drop on each target before they know where to look.
+              </p>
+              <button class="learnmore btn btn-primary"><a href="#">Learn more about this agent</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+          <div class="card-agents card h-100">
+            <img src="img-exc12/Astra.jpg" class="img-fluid card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="card-title">ASTRA</h3>
+                <h4 class="card-subtitle text-secondary">CONTROLLER</h4>
+              </div>
+              <p class="card-text">
+                Ghanaian Agent Astra harnesses the energies of the cosmos to reshape battlefields to her whim. With full command of her astral form and a talent for deep strategic foresight, she's always eons ahead of her enemy's next move.
+              </p>
+              <button class="learnmore btn btn-primary"><a href="#">Learn more about this agent</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+          <div class="card-agents card h-100">
+            <img src="img-exc12/KAYO.png" class="img-fluid card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="card-title">KAY/O</h3>
+                <h4 class="card-subtitle text-secondary">INITIATOR</h4>
+              </div>
+              <p class="card-text">
+                KAY/O is a machine of war built for a single purpose: neutralizing radiants. His power to suppress enemy abilities cripples his opponents' capacity to fight back, securing him and his allies the ultimate edge.
+              </p>
+              <button class="learnmore btn btn-primary"><a href="#">Learn more about this agent</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+          <div class="card-agents card h-100">
+            <img src="img-exc12/Chamber-cropped zoom.png" class="img-fluid card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="card-title">CHAMBER</h3>
+                <h4 class="card-subtitle text-secondary">SENTINEL</h4>
+              </div>
+              <p class="card-text">
+                Well dressed and well armed, French weapons designer Chamber expels aggressors with deadly precision. He leverages his custom arsenal to hold the line and pick off enemies from afar, with a contingency built for every plan.
+              </p>
+              <button class="learnmore btn btn-primary"><a href="#">Learn more about this agent</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+          <div class="card-agents card h-100">
+            <img src="img-exc12/Neon.png" class="img-fluid card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="card-title">NEON</h3>
+                <h4 class="card-subtitle text-secondary">DUELIST</h4>
+              </div>
+              <p class="card-text">
+                Filipino Agent Neon surges forward at shocking speeds, discharging bursts of bioelectric radiance as fast as her body generates it. She races ahead to catch enemies off guard, then strikes them down quicker than lightning.
+              </p>
+              <button class="learnmore btn btn-primary"><a href="#">Learn more about this agent</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+          <div class="card-agents card h-100">
+            <img src="img-exc12/Fade.jpeg" class="img-fluid card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="card-title">FADE</h3>
+                <h4 class="card-subtitle text-secondary">INITIATOR</h4>
+              </div>
+              <p class="card-text">
+                Turkish bounty hunter, Fade, unleashes the power of raw nightmares to seize enemy secrets. Attuned with terror itself, she hunts targets and reveals their deepest fears—before crushing them in the dark.
+              </p>
+              <button class="learnmore btn btn-primary"><a href="#">Learn more about this agent</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+          <div class="card-agents card h-100">
+            <img src="img-exc12/Harbor.png" class="img-fluid card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="card-title">HARBOR</h3>
+                <h4 class="card-subtitle text-secondary">CONTROLLER</h4>
+              </div>
+              <p class="card-text">
+                Hailing from India’s coast, Harbor storms the field wielding ancient technology with dominion over water. He unleashes frothing rapids and crushing waves to shield his allies and pummel those that oppose him.
+              </p>
+              <button class="learnmore btn btn-primary"><a href="#">Learn more about this agent</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <h1 class="contact-us">CONTACT US</h1>
+    <form>
+      <label id="name">Name</label>
+      <input type="text" class="form-control" />
+      <br />
+      <label id="email">Email</label>
+      <input type="text" class="form-control" />
+      <br />
+      <label id="comment">Comment</label>
+      <br />
+      <textarea class="form-control"></textarea>
+      <br />
+      <input type="submit" class="submit-btn btn btn-primary w-100" />
+    </form>
+    
+    <div class="soc-med-sec">
+      <p>Check out my social media accounts:</p>
+      <a href="https://www.facebook.com/jeromexdie" class="fa fa-facebook fa-align-center"></a>
+      <a href="https://twitter.com/jeromeneverest_" class="fa fa-twitter fa-align-center"></a>
+    </div>
+  </body>
+  <br>
+  <br>
+  <footer>
+    <p class="footer">Disclaimer: This page only focuses on the lore behind the game VALORANT's agents. If you want to learn more about the game or how to play it, click <a href="https://playvalorant.com/en-us/">here</a></p>
+  </footer>
+  <br>
+  <br>
+  <!-- <script src="js/bootstrap.js"></script> -->
+  <script src="js/bootstrap.bundle.js"></script>
+</html>

@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
   html,
   body {
     width: 100%;
@@ -104,7 +104,7 @@
     background-color: rgba(23, 25, 52, 0.6);
     text-align: justify;
     width: 550px;
-    margin-top: 180px;
+    margin-top: -200px !important;
     margin-left: 120px;
     text-indent: 20px;
   }
@@ -437,6 +437,8 @@
 
   .cardInitiators .card-body {
     height: 120% !important;
+    display: flex;
+    flex-direction: column;
   }
 
   .cardInitiators .card-body h3.card-title {
@@ -458,7 +460,7 @@
   }
 
   .cardInitiators .card-body .card-title a.card-btn {
-    margin-top: -50px;
+    margin-top: auto;
   }
 
   /* SOVA */

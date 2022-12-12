@@ -3,7 +3,11 @@
 
 html,
 body {
-  background: #171934 cover;
+  width: 100%;
+  height: 100% !important;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -127,7 +131,7 @@ body {
 
 .banner-img img {
   background-color: #171934;
-  margin-left: -10px;
+  margin-left: 0px;
   width: 100%;
 }
 
@@ -141,8 +145,8 @@ body {
   max-width: fit-content;
 
   background-size: 80%;
-  margin-bottom: -150px;
-  margin-left: 150px;
+  margin-bottom: 220px;
+  margin-left: 120px;
   position: absolute;
   bottom: 8px;
   left: 16px;

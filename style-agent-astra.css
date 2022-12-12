@@ -77,7 +77,17 @@ body {
   border-radius: 10px;
 }
 
-@media (max-width: 400px) {
+footer {
+  background-color: #fdf0d5;
+}
+
+p.footer {
+  font-size: 14px;
+  margin-top: 430px;
+  margin-left: 50px;
+}
+
+@media (max-width: 425px) {
   .logo {
     margin-left: -50px;
   }
@@ -113,59 +123,6 @@ body {
     display: flex;
   }
 }
-
-/*.navbar {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  background-color: aliceblue;
-  padding: 15px;
-}
-
-.navbar a {
-  text-decoration: none;
-  color: #e53e3e;
-}
-
-.logo {
-  margin-right: 50px;
-}
-
-.list {
-  list-style: none;
-  display: flex;
-  gap: 25px;
-}
-
-#toggler,
-.navbar label {
-  display: none;
-}
-
- @media screen and (max-width: 600px) {
-   .menu { 
-    width: 100%;
-    max-height: 0;
-    overflow: hidden;
-  }
-
-  .list {
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-  }
-
-  .navbar label {
-    display: inline-flex;
-    align-items: center;
-    cursor: pointer;
-  }
-
-  #toggler:checked ~ .menu {
-    max-height: 100%;
-  }
-}*/
 
 .agents-container {
   position: relative;
@@ -213,7 +170,7 @@ body {
 
 .agent-img img {
   margin-top: 20px;
-  margin-left: 50px;
+  margin-left: -20px;
 }
 
 .card-header {
@@ -224,7 +181,7 @@ h6 {
   color: #fdf0d5;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
   .agent-img img {
     width: 60%;
     height: 40%;
@@ -267,11 +224,220 @@ h6 {
   }
 
   .list-group li {
-    font-size: 8px;
+    font-size: 10px;
     padding-left: 5px;
   }
 
   .card-header h6 {
     font-size: 10px;
+  }
+
+  footer {
+    background-color: #fdf0d5;
+  }
+
+  p.footer {
+    width: 300px;
+    font-size: 10px;
+    margin-top: 430px;
+    margin-left: 50px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .logo {
+    margin-left: -50px;
+  }
+
+  .toggle-button {
+    margin-right: 30px !important;
+    display: flex;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar-links li {
+    text-align: center;
+  }
+  .navbar-links li a {
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-links .active {
+    display: flex;
+  }
+
+  .agent-img img {
+    width: 80%;
+    height: auto;
+    margin-left: 80px;
+  }
+
+  .agent-info {
+    margin-top: 140px;
+    margin-left: 300px !important;
+    width: 500px;
+    padding: 0px;
+  }
+
+  .agent-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: -110px;
+  }
+
+  .agent-info p#story-one,
+  .agent-info p#story-two,
+  .agent-info p#story-three {
+    font-size: 12px;
+    text-indent: 20px;
+    text-align: justify;
+    margin-left: -70px;
+    width: 105% !important;
+    height: auto !important;
+  }
+  .agent-card {
+    margin-left: 20px;
+    width: 40% !important;
+    height: auto !important;
+  }
+
+  .card-img-top img {
+    width: 30% !important;
+    height: 20% !important;
+  }
+
+  .list-group li {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    padding-left: 5px;
+  }
+
+  .card-header h6 {
+    font-size: 14px;
+  }
+
+  footer {
+    background-color: #fdf0d5;
+  }
+
+  p.footer {
+    width: 500px;
+    font-size: 14px;
+    margin-top: 430px;
+    margin-left: 150px !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .logo {
+    margin-left: -50px;
+  }
+
+  .toggle-button {
+    margin-right: 30px !important;
+    display: flex;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar-links li {
+    text-align: center;
+  }
+  .navbar-links li a {
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-links .active {
+    display: flex;
+  }
+
+  .agent-img img {
+    width: 80%;
+    height: auto;
+    margin-left: 80px;
+  }
+
+  .agent-info {
+    margin-top: 180px;
+    margin-left: 400px !important;
+    width: 500px;
+    padding: 0px;
+  }
+
+  .agent-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: -110px;
+  }
+
+  .agent-info p#story-one,
+  .agent-info p#story-two,
+  .agent-info p#story-three {
+    font-size: 14px;
+    text-indent: 20px;
+    text-align: justify;
+    margin-left: -70px;
+    width: 105% !important;
+    height: auto !important;
+  }
+  .agent-card {
+    margin-left: 20px;
+    width: 40% !important;
+    height: auto !important;
+  }
+
+  .card-img-top img {
+    width: 30% !important;
+    height: 20% !important;
+  }
+
+  .list-group li {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    padding-left: 5px;
+  }
+
+  .card-header h6 {
+    font-size: 14px;
+  }
+
+  footer {
+    background-color: #fdf0d5;
+  }
+
+  p.footer {
+    width: 500px;
+    font-size: 14px;
+    margin-top: 430px;
+    margin-left: 150px !important;
   }
 }

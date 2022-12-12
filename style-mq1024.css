@@ -1,4 +1,4 @@
-@media (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   html,
   body {
     width: 100%;
@@ -27,7 +27,7 @@
     background-color: rgba(23, 25, 52, 0.6);
     text-align: justify;
     width: 720px;
-    margin-top: 180px;
+    margin-top: -180px !important;
     margin-left: 150px !important;
     text-indent: 20px;
   }

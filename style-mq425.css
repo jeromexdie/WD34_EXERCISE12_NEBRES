@@ -1,0 +1,733 @@
+@media (max-width: 425px) {
+  html,
+  body {
+    width: 100%;
+    height: 100% !important;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .logo {
+    margin-left: 0px;
+  }
+
+  .toggle-button {
+    margin-right: 0px !important;
+    display: flex;
+  }
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar-links li {
+    text-align: center;
+  }
+  .navbar-links li a {
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-links .active {
+    display: flex;
+  }
+
+  input.search-box,
+  input.search-btn {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+    margin-left: -50px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .banner-img img {
+    margin-top: 80px;
+    margin-left: -80px;
+    margin-right: 100px;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  ul.nav-bar {
+    background: rgb(138, 33, 33);
+    background: linear-gradient(
+      122deg,
+      rgba(138, 33, 33, 1) 0%,
+      rgba(23, 25, 52, 1) 100%
+    );
+    width: 100%;
+  }
+
+  ul li {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: #e53e3e;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .banner-text h1#vallore {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px !important;
+    color: #e53e3e;
+    background: rgba(20, 33, 61, 0.4);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
+    background-size: 20%;
+    margin-top: -20px !important;
+    margin-left: 100px !important;
+    position: relative;
+  }
+  .banner-text p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    color: #e53e3e;
+    background-color: rgba(23, 25, 52, 0.6);
+    text-align: justify;
+    width: 350px !important;
+    margin-top: 160px;
+    margin-left: 35px !important;
+    text-indent: 20px;
+  }
+
+  .carousel-title h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #e53e3e;
+    margin-top: -20px;
+    padding-top: 40px;
+    margin-left: 50px !important;
+  }
+
+  /*.carousel-inner {
+    background: url(img-exc12/carousel-bg.jpg) no-repeat;
+   } */
+
+  .carousel-inner .carousel-item .agent {
+    padding-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 165px !important;
+    position: relative;
+  }
+
+  img#agent-img {
+    width: 50% !important;
+    height: auto;
+  }
+
+  .agent-info {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px !important;
+    margin-left: -0px !important;
+    margin-top: 20px !important;
+    width: 100% !important;
+    height: 70% !important;
+    background: rgba(20, 33, 61, 0.55);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    z-index: 10;
+  }
+
+  h6.agent-desc {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px !important;
+    font-weight: 400;
+  }
+
+  .container-valagents {
+    background-color: #171934;
+    margin-bottom: -10px;
+  }
+
+  .carousel-bg {
+    position: relative;
+    z-index: 1;
+  }
+
+  .container-cards h1 {
+    font-size: 12px;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+
+  a.card-btn {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+  }
+
+  .cardDuelists .card-body h3.card-title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0px !important;
+  }
+  .cardDuelists .card-body h4.card-subtitle {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 0px !important;
+  }
+  .cardDuelists .card-body p.card-text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+    padding: 0px !important;
+  }
+
+  h2.accordion-header button.accordion-button {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+  }
+
+  .accordion-item {
+    width: 120% !important;
+    height: auto;
+  }
+
+  .jettAccordion .accordion-item h2.accordion-header button.accordion-button {
+    margin: -10px !important;
+    display: block;
+  }
+
+  div#jettAccordion .accordion-body p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+  }
+
+  div#jettAccordion .accordion-body button.learnmore a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px !important;
+
+    display: inline-block;
+  }
+  div#jettAccordion .accordion-body button {
+    width: 100px !important;
+    height: auto !important;
+    margin: -17px !important;
+  }
+
+  /* NEON */
+
+  div#neonAccordion .accordion-body p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+  }
+
+  div#neonAccordion .accordion-body button.learnmore a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px !important;
+    margin: -10px;
+    display: inline-block;
+  }
+  div#neonAccordion .accordion-body button {
+    width: 100px !important;
+    height: auto !important;
+    margin: -17px !important;
+  }
+  /* PHOENIX */
+  div#phoenixAccordion .accordion-body p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+  }
+
+  div#phoenixAccordion .accordion-body button.learnmore a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px !important;
+    margin: -10px;
+    display: inline-block;
+  }
+  div#phoenixAccordion .accordion-body button {
+    width: 100px !important;
+    height: auto !important;
+    margin: -17px !important;
+  }
+
+  /* RAZE */
+  div#razeAccordion .accordion-body p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+  }
+
+  div#razeAccordion .accordion-body button.learnmore a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px !important;
+    margin: -10px;
+    display: inline-block;
+  }
+  div#razeAccordion .accordion-body button {
+    width: 100px !important;
+    height: auto !important;
+    margin: -17px !important;
+  }
+
+  /* REYNA */
+
+  div#reynaAccordion .accordion-body p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+  }
+
+  div#reynaAccordion .accordion-body button.learnmore a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px !important;
+    margin: -10px;
+    display: inline-block;
+  }
+  div#reynaAccordion .accordion-body button {
+    width: 100px !important;
+    height: auto !important;
+    margin: -17px !important;
+  }
+
+  /* YORU */
+  div#yoruAccordion .accordion-body p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+  }
+
+  div#yoruAccordion .accordion-body button.learnmore a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px !important;
+    margin: -10px;
+    display: inline-block;
+  }
+  div#yoruAccordion .accordion-body button {
+    width: 100px !important;
+    height: auto !important;
+    margin: -17px !important;
+  }
+
+  /* CONTROLLERS */
+
+  .controllersAccordion {
+    margin-left: 30px !important;
+  }
+
+  .cardControllers {
+    max-height: 100%;
+    margin-left: 0px;
+  }
+
+  div#astraAccordion .accordion-body p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+  }
+
+  div#astraAccordion .accordion-body button.learnmore a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px !important;
+    margin: -10px;
+    display: inline-block;
+  }
+  div#astraAccordion .accordion-body button {
+    width: 100px !important;
+    height: auto !important;
+    margin: -17px !important;
+  }
+
+  /* BRIMSTONE */
+  div#brimAccordion .accordion-body p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+  }
+
+  div#brimAccordion .accordion-body button.learnmore a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px !important;
+    margin: -10px;
+    display: inline-block;
+  }
+  div#brimAccordion .accordion-body button {
+    width: 100px !important;
+    height: auto !important;
+    margin: -17px !important;
+  }
+
+  /* VIPER */
+  div#viperAccordion .accordion-body p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+  }
+
+  div#viperAccordion .accordion-body button.learnmore a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px !important;
+    margin: -10px;
+    display: inline-block;
+  }
+  div#viperAccordion .accordion-body button {
+    width: 100px !important;
+    height: auto !important;
+    margin: -17px !important;
+  }
+
+  /* OMEN */
+  div#omenAccordion .accordion-body p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+  }
+
+  div#omenAccordion .accordion-body button.learnmore a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px !important;
+    margin: -10px;
+    display: inline-block;
+  }
+  div#omenAccordion .accordion-body button {
+    width: 100px !important;
+    height: auto !important;
+    margin: -17px !important;
+  }
+
+  /* HARBOR */
+  div#harborAccordion .accordion-body p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+  }
+
+  div#harborAccordion .accordion-body button.learnmore a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px !important;
+    margin: -10px;
+    display: inline-block;
+  }
+  div#harborAccordion .accordion-body button {
+    width: 100px !important;
+    height: auto !important;
+    margin: -17px !important;
+  }
+
+  /* CONTROLLERS-CARD */
+  .cardControllers .card-body h3.card-title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0px !important;
+  }
+  .cardControllers .card-body h4.card-subtitle {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 0px !important;
+  }
+  .cardControllers .card-body p.card-text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+    padding: 0px !important;
+  }
+
+  /* INITIATORS-CARD */
+  .cardInitiators .card-body h3.card-title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0px !important;
+  }
+  .cardInitiators .card-body h4.card-subtitle {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 0px !important;
+  }
+  .cardInitiators .card-body p.card-text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+    padding: 0px !important;
+  }
+
+  /* SOVA */
+  div#sovaAccordion .accordion-body p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+  }
+
+  div#sovaAccordion .accordion-body button.learnmore a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px !important;
+    margin: -10px;
+    display: inline-block;
+  }
+  div#sovaAccordion .accordion-body button {
+    width: 100px !important;
+    height: auto !important;
+    margin-left: -5px !important;
+  }
+
+  /* SKYE */
+  div#skyeAccordion .accordion-body p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+  }
+
+  div#skyeAccordion .accordion-body button.learnmore a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px !important;
+    margin: -10px;
+    display: inline-block;
+  }
+  div#skyeAccordion .accordion-body button {
+    width: 100px !important;
+    height: auto !important;
+    margin-left: -5px !important;
+  }
+
+  /* FADE */
+  div#fadeAccordion .accordion-body p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+  }
+
+  div#fadeAccordion .accordion-body button.learnmore a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px !important;
+    margin: -10px;
+    display: inline-block;
+  }
+  div#fadeAccordion .accordion-body button {
+    width: 100px !important;
+    height: auto !important;
+    margin-left: -5px !important;
+  }
+
+  /* KAY/O */
+  div#kayoAccordion .accordion-body p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+  }
+
+  div#kayoAccordion .accordion-body button.learnmore a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px !important;
+    margin: -10px;
+    display: inline-block;
+  }
+  div#kayoAccordion .accordion-body button {
+    width: 100px !important;
+    height: auto !important;
+    margin-left: -5px !important;
+  }
+
+  /* BREACH */
+  div#breachAccordion .accordion-body p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+  }
+
+  div#breachAccordion .accordion-body button.learnmore a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px !important;
+    margin: -10px;
+    display: inline-block;
+  }
+  div#breachAccordion .accordion-body button {
+    width: 100px !important;
+    height: auto !important;
+    margin-left: -5px !important;
+  }
+
+  .initiatorsAccordion {
+    padding-left: 10px !important;
+  }
+
+  .cardInitiators {
+    margin-right: 5px !important;
+    width: 500px !important;
+    height: 100%;
+  }
+
+  .cardInitiators .card-body {
+    height: 120% !important;
+  }
+
+  /* CHAMBER */
+  div#chamberAccordion .accordion-body p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+  }
+
+  div#chamberAccordion .accordion-body button.learnmore a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+    margin: -10px;
+    display: inline-block;
+  }
+  div#chamberAccordion .accordion-body button {
+    width: 100px !important;
+    height: auto !important;
+  }
+
+  /* CYPHER */
+  div#cypherAccordion .accordion-body p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+  }
+
+  div#cypherAccordion .accordion-body button.learnmore a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+    margin: -10px;
+    display: inline-block;
+  }
+  div#cypherAccordion .accordion-body button {
+    width: 100px !important;
+    height: auto !important;
+  }
+
+  /* KILLJOY */
+  div#killjoyAccordion .accordion-body p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+  }
+
+  div#killjoyAccordion .accordion-body button.learnmore a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+    margin: -10px;
+    display: inline-block;
+  }
+  div#killjoyAccordion .accordion-body button {
+    width: 100px !important;
+    height: auto !important;
+  }
+
+  /* SAGE */
+  div#sageAccordion .accordion-body p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+  }
+
+  div#sageAccordion .accordion-body button.learnmore a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+    margin: -10px;
+    display: inline-block;
+  }
+  div#sageAccordion .accordion-body button {
+    width: 100px !important;
+    height: auto !important;
+  }
+
+  /* SENTINELS-CARD */
+  .cardSentinels .card-body h3.card-title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0px !important;
+  }
+  .cardSentinels .card-body h4.card-subtitle {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 0px !important;
+  }
+  .cardSentinels .card-body p.card-text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 8px;
+    padding: 0px !important;
+  }
+
+  .sentinelsAccordion {
+    margin-left: 0px !important;
+  }
+
+  .cardSentinels {
+    margin-left: 20px;
+    margin-right: -60px;
+  }
+
+  .card-agents {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .card-agents .card-body h3,
+  .card-agents .card-body h4 {
+    font-size: 10px !important;
+    font-weight: 600;
+  }
+
+  .card-agents .card-body p {
+    font-size: 8px;
+  }
+
+  .card-agents .card-body button.learnmore a {
+    font-size: 8px;
+  }
+
+  p.footer {
+    width: 250px;
+    font-size: 10px;
+    margin: auto;
+  }
+
+  h1.contact-us {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+
+  form {
+    margin-left: 70px !important;
+  }
+
+  form label#name,
+  label#email,
+  label#comment {
+    font-size: 10px;
+    font-weight: 600;
+    color: #e53e3e;
+    margin-left: 5px !important;
+  }
+
+  input.form-control,
+  textarea.form-control {
+    margin-top: -2px;
+    width: 60% !important;
+    height: auto;
+  }
+
+  input.submit-btn {
+    width: 60% !important;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .soc-med-sec {
+    width: 60%;
+    margin-top: 10px;
+    margin-left: 15px !important;
+  }
+
+  .soc-med-sec p {
+    font-size: 12px;
+    color: #e53e3e;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .fa {
+    display: inline-flex;
+  }
+
+  .fa-facebook {
+    margin-left: 70px !important;
+  }
+}

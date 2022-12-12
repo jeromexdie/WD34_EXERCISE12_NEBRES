@@ -1,4 +1,4 @@
-@media (max-width: 400px) {
+@media (max-width: 768px) {
   html,
   body {
     width: 100%;
@@ -6,6 +6,11 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+  }
+
+  .search {
+    width: 60%;
+    margin: 0 auto;
   }
 
   .logo {
@@ -42,17 +47,16 @@
   input.search-box,
   input.search-btn {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
     margin-left: -50px;
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 768px) {
   .bg-img {
     margin-top: 80px;
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 60% !important;
+    padding-left: 180px;
+    width: 80% !important;
     height: auto !important;
   }
 
@@ -77,20 +81,20 @@
     list-style: none;
     color: #e53e3e;
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 18px;
+    font-size: 110px;
     font-weight: 600;
   }
 
-  .banner-text h1 {
+  .banner-text h1#vallore {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 12px;
+    font-size: 22px;
     color: #e53e3e;
     background: rgba(20, 33, 61, 0.4);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(5px);
     background-size: 20%;
-    margin-top: -20px;
-    margin-left: 100px;
+    margin-top: -40px;
+    margin-left: 180px;
     position: relative;
   }
   .banner-text p {
@@ -99,15 +103,14 @@
     color: #e53e3e;
     background-color: rgba(23, 25, 52, 0.6);
     text-align: justify;
-    width: 250px;
-    margin-top: 160px;
-    margin-left: 100px;
+    width: 550px;
+    margin-top: 180px;
+    margin-left: 120px;
     text-indent: 20px;
   }
-
   .carousel-title h1 {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 12px;
+    font-size: 20px;
     color: #e53e3e;
     margin-top: -20px;
     padding-top: 40px;
@@ -121,33 +124,33 @@
   .carousel-inner .carousel-item .agent {
     padding-top: 50px;
     margin-bottom: 50px;
-    margin-right: 50px;
-    padding-left: 100px;
+    margin-right: 120px;
+    padding-left: 50px;
     position: relative;
   }
 
   img#agent-img {
-    width: 60%;
-    height: 50%;
+    width: 40%;
+    height: 30%;
   }
 
   .agent-info {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
-    margin-left: -20px;
-    margin-bottom: 50px;
-    width: 40% !important;
-    height: 80px;
-    background: rgba(20, 33, 61, 0.55);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+    font-size: 12px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    width: 30% !important;
+    height: auto;
+    background: rgba(70, 23, 23, 0.75);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
     border-radius: 10px;
     z-index: 10;
   }
 
-  h6.agent-desc {
+  .agent-info h6.agent-desc {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
   }
 
@@ -162,7 +165,7 @@
   }
 
   .container-cards h1 {
-    font-size: 12px;
+    font-size: 20px;
   }
 
   .card-img-top {
@@ -172,35 +175,40 @@
 
   a.card-btn {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .cardDuelists .card-body h3.card-title {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
     padding: 0px !important;
   }
   .cardDuelists .card-body h4.card-subtitle {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 400;
     padding: 0px !important;
   }
   .cardDuelists .card-body p.card-text {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
     padding: 0px !important;
   }
 
   h2.accordion-header button.accordion-button {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .accordion-item {
-    width: 120% !important;
+    width: 100% !important;
     height: auto;
+  }
+
+  .duelistsAccordion {
+    margin-left: 0px;
+    width: 40% !important;
   }
 
   .jettAccordion .accordion-item h2.accordion-header button.accordion-button {
@@ -210,12 +218,12 @@
 
   div#jettAccordion .accordion-body p {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
   }
 
   div#jettAccordion .accordion-body button.learnmore a {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
     margin: -10px;
     display: inline-block;
   }
@@ -228,13 +236,13 @@
 
   div#neonAccordion .accordion-body p {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
   }
 
   div#neonAccordion .accordion-body button.learnmore a {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
-    margin: -10px;
+    font-size: 12px;
+    margin: -8px;
     display: inline-block;
   }
   div#neonAccordion .accordion-body button {
@@ -244,13 +252,13 @@
   /* PHOENIX */
   div#phoenixAccordion .accordion-body p {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
   }
 
   div#phoenixAccordion .accordion-body button.learnmore a {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
-    margin: -10px;
+    font-size: 12px;
+    margin: -8px;
     display: inline-block;
   }
   div#phoenixAccordion .accordion-body button {
@@ -261,13 +269,13 @@
   /* RAZE */
   div#razeAccordion .accordion-body p {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
   }
 
   div#razeAccordion .accordion-body button.learnmore a {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
-    margin: -10px;
+    font-size: 12px;
+    margin: -8px;
     display: inline-block;
   }
   div#razeAccordion .accordion-body button {
@@ -279,13 +287,13 @@
 
   div#reynaAccordion .accordion-body p {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
   }
 
   div#reynaAccordion .accordion-body button.learnmore a {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
-    margin: -10px;
+    font-size: 12px;
+    margin: -8px;
     display: inline-block;
   }
   div#reynaAccordion .accordion-body button {
@@ -296,13 +304,13 @@
   /* YORU */
   div#yoruAccordion .accordion-body p {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
   }
 
   div#yoruAccordion .accordion-body button.learnmore a {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
-    margin: -10px;
+    font-size: 12px;
+    margin: -8px;
     display: inline-block;
   }
   div#yoruAccordion .accordion-body button {
@@ -313,24 +321,24 @@
   /* CONTROLLERS */
 
   .controllersAccordion {
-    margin-left: -25px;
+    margin-left: 65px;
+    width: 40% !important;
   }
 
   .cardControllers {
     max-height: 100%;
-    margin-left: 25px;
-    margin-right: -50px;
+    margin-right: 10px;
   }
 
   div#astraAccordion .accordion-body p {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
   }
 
   div#astraAccordion .accordion-body button.learnmore a {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
-    margin: -10px;
+    font-size: 12px;
+    margin: -8px;
     display: inline-block;
   }
   div#astraAccordion .accordion-body button {
@@ -341,13 +349,13 @@
   /* BRIMSTONE */
   div#brimAccordion .accordion-body p {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
   }
 
   div#brimAccordion .accordion-body button.learnmore a {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
-    margin: -10px;
+    font-size: 12px;
+    margin: -8px;
     display: inline-block;
   }
   div#brimAccordion .accordion-body button {
@@ -358,13 +366,13 @@
   /* VIPER */
   div#viperAccordion .accordion-body p {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
   }
 
   div#viperAccordion .accordion-body button.learnmore a {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
-    margin: -10px;
+    font-size: 12px;
+    margin: -8px;
     display: inline-block;
   }
   div#viperAccordion .accordion-body button {
@@ -375,13 +383,13 @@
   /* OMEN */
   div#omenAccordion .accordion-body p {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
   }
 
   div#omenAccordion .accordion-body button.learnmore a {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
-    margin: -10px;
+    font-size: 12px;
+    margin: -8px;
     display: inline-block;
   }
   div#omenAccordion .accordion-body button {
@@ -392,12 +400,12 @@
   /* HARBOR */
   div#harborAccordion .accordion-body p {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 10px;
   }
 
   div#harborAccordion .accordion-body button.learnmore a {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
     margin: -10px;
     display: inline-block;
   }
@@ -415,17 +423,22 @@
   }
   .cardControllers .card-body h4.card-subtitle {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 400;
     padding: 0px !important;
   }
   .cardControllers .card-body p.card-text {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
     padding: 0px !important;
   }
 
   /* INITIATORS-CARD */
+
+  .cardInitiators .card-body {
+    height: 120% !important;
+  }
+
   .cardInitiators .card-body h3.card-title {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 12px;
@@ -434,26 +447,30 @@
   }
   .cardInitiators .card-body h4.card-subtitle {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 400;
     padding: 0px !important;
   }
   .cardInitiators .card-body p.card-text {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
     padding: 0px !important;
+  }
+
+  .cardInitiators .card-body .card-title a.card-btn {
+    margin-top: -50px;
   }
 
   /* SOVA */
   div#sovaAccordion .accordion-body p {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
   }
 
   div#sovaAccordion .accordion-body button.learnmore a {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
-    margin: -10px;
+    font-size: 12px;
+    margin: -8px;
     display: inline-block;
   }
   div#sovaAccordion .accordion-body button {
@@ -464,13 +481,13 @@
   /* SKYE */
   div#skyeAccordion .accordion-body p {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
   }
 
   div#skyeAccordion .accordion-body button.learnmore a {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
-    margin: -10px;
+    font-size: 12px;
+    margin: -8px;
     display: inline-block;
   }
   div#skyeAccordion .accordion-body button {
@@ -481,13 +498,13 @@
   /* FADE */
   div#fadeAccordion .accordion-body p {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
   }
 
   div#fadeAccordion .accordion-body button.learnmore a {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
-    margin: -10px;
+    font-size: 12px;
+    margin: -8px;
     display: inline-block;
   }
   div#fadeAccordion .accordion-body button {
@@ -498,13 +515,13 @@
   /* KAY/O */
   div#kayoAccordion .accordion-body p {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
   }
 
   div#kayoAccordion .accordion-body button.learnmore a {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
-    margin: -10px;
+    font-size: 12px;
+    margin: -8px;
     display: inline-block;
   }
   div#kayoAccordion .accordion-body button {
@@ -515,13 +532,13 @@
   /* BREACH */
   div#breachAccordion .accordion-body p {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
   }
 
   div#breachAccordion .accordion-body button.learnmore a {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
-    margin: -10px;
+    font-size: 12px;
+    margin: -8px;
     display: inline-block;
   }
   div#breachAccordion .accordion-body button {
@@ -542,13 +559,13 @@
   /* CHAMBER */
   div#chamberAccordion .accordion-body p {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
   }
 
   div#chamberAccordion .accordion-body button.learnmore a {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
-    margin: -10px;
+    font-size: 12px;
+    margin: -8px;
     display: inline-block;
   }
   div#chamberAccordion .accordion-body button {
@@ -559,13 +576,13 @@
   /* CYPHER */
   div#cypherAccordion .accordion-body p {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
   }
 
   div#cypherAccordion .accordion-body button.learnmore a {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
-    margin: -10px;
+    font-size: 12px;
+    margin: -8px;
     display: inline-block;
   }
   div#cypherAccordion .accordion-body button {
@@ -576,13 +593,13 @@
   /* KILLJOY */
   div#killjoyAccordion .accordion-body p {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
   }
 
   div#killjoyAccordion .accordion-body button.learnmore a {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
-    margin: -10px;
+    font-size: 12px;
+    margin: -8px;
     display: inline-block;
   }
   div#killjoyAccordion .accordion-body button {
@@ -593,13 +610,13 @@
   /* SAGE */
   div#sageAccordion .accordion-body p {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
   }
 
   div#sageAccordion .accordion-body button.learnmore a {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
-    margin: -10px;
+    font-size: 12px;
+    margin: -8px;
     display: inline-block;
   }
   div#sageAccordion .accordion-body button {
@@ -616,63 +633,62 @@
   }
   .cardSentinels .card-body h4.card-subtitle {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 400;
     padding: 0px !important;
   }
   .cardSentinels .card-body p.card-text {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 8px;
+    font-size: 12px;
     padding: 0px !important;
   }
 
   .sentinelsAccordion {
-    margin-left: -12px;
+    margin-left: 0px;
   }
 
   .cardSentinels {
-    margin-left: 25px;
-    margin-right: -50px;
+    margin-left: 15px;
   }
 
   .card-agents {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
   }
 
   .card-agents .card-body h3,
   .card-agents .card-body h4 {
-    font-size: 10px !important;
+    font-size: 12px !important;
     font-weight: 600;
   }
 
   .card-agents .card-body p {
-    font-size: 8px;
+    font-size: 12px;
   }
 
   .card-agents .card-body button.learnmore a {
-    font-size: 8px;
+    font-size: 12px;
   }
 
   p.footer {
     width: 250px;
-    font-size: 10px;
+    font-size: 12px;
     margin: auto;
   }
 
   h1.contact-us {
-    font-size: 10px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
 
   form {
-    margin-left: 50px;
+    margin-left: 120px;
   }
 
   form label#name,
   label#email,
   label#comment {
-    font-size: 10px;
+    font-size: 16px;
     font-weight: 600;
     color: #e53e3e;
     margin-left: 10px;
@@ -694,13 +710,14 @@
   .soc-med-sec {
     width: 60%;
     margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 150px;
   }
 
   .soc-med-sec p {
     font-size: 12px;
     color: #e53e3e;
     display: flex;
+    margin-left: 60px;
     flex-wrap: wrap;
   }
 
@@ -709,6 +726,6 @@
   }
 
   .fa-facebook {
-    margin-left: 15px;
+    margin-left: 80px;
   }
 }

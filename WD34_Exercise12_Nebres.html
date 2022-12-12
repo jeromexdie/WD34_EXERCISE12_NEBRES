@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="style-mq400.css" />
+    <link rel="stylesheet" href="style-mq425.css" />
+    <link rel="stylesheet" href="style-mq768.css">
+    <link rel="stylesheet" href="style-mq1024.css">
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link
@@ -48,10 +50,10 @@
     
     <div class="banner">
       <div class="banner-img">
-        <img src="img-exc12/banner.jpg" class="bg-img" />
+        <img src="img-exc12/banner.jpg" class="img-fluid bg-img" />
       </div>
       <div class="banner-text">
-        <h1>VALORANT Lore</h1>
+        <h1 id="vallore">VALORANT Lore</h1>
         <p>Valorant is a team-based first-person tactical hero shooter set in the near future.Players play as one of a set of Agents, characters based on several countries and cultures around the world. In the main game mode, players are assigned to either the attacking or defending team with each team having five players on it. Agents have unique abilities, each requiring charges, as well as a unique ultimate ability that requires charging through kills, deaths, orbs, or objectives. Every player starts each round with a "classic" pistol and one or more "signature ability" charges. Other weapons and ability charges can be purchased using an in-game economic system that awards money based on the outcome of the previous round, any kills the player is responsible for, and any objectives completed.</p>
       </div>
     </div>
@@ -232,7 +234,7 @@
             </div>
           </div>
         </div>
-        <div class="col-6 d-inline-block">
+        <div class="col-6 d-inline-block duelistsAccordion">
           <div class="accordion" id="jettAccordion">
             <div class="accordion-item">
               <h2 class="accordion-header" id="accordionJett">
@@ -397,7 +399,7 @@
               <p class="card-text">
                 Controllers are experts in slicing up dangerous territory to set their team up for success.
               </p>
-              <a href="#" class="card-btn btn btn-primary">Sample <Link></Link></a>
+              <a href="#" class="card-btn btn btn-primary">Sample</a>
             </div>
           </div>
         </div>
@@ -422,7 +424,7 @@
                 <p class="card-text">
                   Initiators challenge angles by setting up their team to enter contested ground and push defenders away.
                 </p>
-                <a href="#" class="card-btn btn btn-primary">Sample <Link></Link></a>
+                <a href="#" class="card-btn btn btn-primary">Sample</a>
               </div>
             </div>
           </div>
@@ -497,7 +499,7 @@
         </div>
       </div>
       <br>
-      <div class="row my-1">
+      <div class="row my-3">
         <div class="col-6 d-inline-block sentinelsAccordion">
           <div class="accordion " id="chamberAccordion">
             <div class="accordion-item gx-4">
@@ -553,7 +555,7 @@
           </div>
        </div>
        <div class="col-6 d-flex justify-content-center">
-        <div class="card cardSentinels gx-4">
+        <div class="card cardSentinels gx-3">
           <img
             src="img-exc12/sentinels-collage.png"
             class="card-img-top"
@@ -579,7 +581,7 @@
     <div class="container">
       <div class="row gx-3 gy-3 agents">
         <h1 id="agents-title">AGENTS</h1>
-        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+        <div class="col-sm-1 col-md-6 col-lg-4 col-xl-4">
           <div class="card-agents card h-100">
             <img src="img-exc12/Brim.jpg" class="img-fluid card-img-top">
             <div class="card-body">
@@ -594,7 +596,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+        <div class="col-sm-1 col-md-6 col-lg-4 col-xl-4">
           <div class="card-agents card h-100">
             <img src="img-exc12/Phoenix.jpg" class="img-fluid card-img-top">
             <div class="card-body">
@@ -609,7 +611,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+        <div class="col-sm-1 col-md-6 col-lg-4 col-xl-4">
           <div class="card-agents card h-100">
             <img src="img-exc12/Sage.jpg" class="img-fluid card-img-top">
             <div class="card-body">
@@ -624,7 +626,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+        <div class="col-sm-1 col-md-6 col-lg-4 col-xl-4">
           <div class="card-agents card h-100">
             <img src="img-exc12/Sova.jpg" class="img-fluid card-img-top">
             <div class="card-body">
@@ -639,7 +641,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+        <div class="col-sm-1 col-md-6 col-lg-4 col-xl-4">
           <div class="card-agents card h-100">
             <img src="img-exc12/Viper-cropped zoom.jpg" class="img-fluid card-img-top">
             <div class="card-body">
@@ -654,7 +656,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+        <div class="col-sm-1 col-md-6 col-lg-4 col-xl-4">
           <div class="card-agents card h-100">
             <img src="img-exc12/Cypher.jpg" class="img-fluid card-img-top">
             <div class="card-body">
@@ -669,7 +671,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+        <div class="col-sm-1 col-md-6 col-lg-4 col-xl-4">
           <div class="card-agents card h-100">
             <img src="img-exc12/Reyna.jpg" class=" img-fluid">
             <div class="card-body">
@@ -684,7 +686,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+        <div class="col-sm-1 col-md-6 col-lg-4 col-xl-4">
           <div class="card-agents card h-100">
             <img src="img-exc12/KillJoy-cropped zoom.jpg" class="img-fluid card-img-top">
             <div class="card-body">
@@ -699,7 +701,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+        <div class="col-sm-1 col-md-6 col-lg-4 col-xl-4">
           <div class="card-agents card h-100">
             <img src="img-exc12/Breach.jpg" class="img-fluid card-img-top">
             <div class="card-body">
@@ -714,7 +716,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+        <div class="col-sm-1 col-md-6 col-lg-4 col-xl-4">
           <div class="card-agents card h-100">
             <img src="img-exc12/Omen.jpg" class="img-fluid card-img-top">
             <div class="card-body">
@@ -729,7 +731,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+        <div class="col-sm-1 col-md-6 col-lg-4 col-xl-4">
           <div class="card-agents card h-100">
             <img src="img-exc12/Jett.jpg" class="img-fluid card-img-top">
             <div class="card-body">
@@ -744,7 +746,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+        <div class="col-sm-1 col-md-6 col-lg-4 col-xl-4">
           <div class="card-agents card h-100">
             <img src="img-exc12/Raze.jpg" class="img-fluid card-img-top">
             <div class="card-body">
@@ -759,7 +761,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+        <div class="col-sm-1 col-md-6 col-lg-4 col-xl-4">
           <div class="card-agents card h-100">
             <img src="img-exc12/Skye.jpg" class="img-fluid card-img-top">
             <div class="card-body">
@@ -774,7 +776,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+        <div class="col-sm-1 col-md-6 col-lg-4 col-xl-4">
           <div class="card-agents card h-100">
             <img src="img-exc12/Yoru.jpg" class="card-img-top">
             <div class="card-body">
@@ -789,7 +791,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+        <div class="col-sm-1 col-md-6 col-lg-4 col-xl-4">
           <div class="card-agents card h-100">
             <img src="img-exc12/Astra.jpg" class="img-fluid card-img-top">
             <div class="card-body">
@@ -804,7 +806,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+        <div class="col-sm-1 col-md-6 col-lg-4 col-xl-4">
           <div class="card-agents card h-100">
             <img src="img-exc12/KAYO.png" class="img-fluid card-img-top">
             <div class="card-body">
@@ -819,7 +821,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+        <div class="col-sm-1 col-md-6 col-lg-4 col-xl-4">
           <div class="card-agents card h-100">
             <img src="img-exc12/Chamber-cropped zoom.png" class="img-fluid card-img-top">
             <div class="card-body">
@@ -834,7 +836,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+        <div class="col-sm-1 col-md-6 col-lg-4 col-xl-4">
           <div class="card-agents card h-100">
             <img src="img-exc12/Neon.png" class="img-fluid card-img-top">
             <div class="card-body">
@@ -849,7 +851,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+        <div class="col-sm-1 col-md-6 col-lg-4 col-xl-4">
           <div class="card-agents card h-100">
             <img src="img-exc12/Fade.jpeg" class="img-fluid card-img-top">
             <div class="card-body">
@@ -864,7 +866,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-1 col-md-2 col-lg-3 col-xl-4">
+        <div class="col-sm-1 col-md-6 col-lg-4 col-xl-4">
           <div class="card-agents card h-100">
             <img src="img-exc12/Harbor.png" class="img-fluid card-img-top">
             <div class="card-body">
